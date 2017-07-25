@@ -58,7 +58,7 @@
     <div>
       <ul class="category_list">
         <li v-for="category in category_lists">
-          <input type="checkbox" v-bind:id="category" v-bind:value="category" v-model="preview" @click="select_categories">
+          <input type="checkbox" v-bind:id="category" v-bind:value="category" v-model="preview" @click="find_categories">
           <label v-bind:for="category">{{ category }}</label>
         </li>
       </ul>

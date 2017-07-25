@@ -67,7 +67,7 @@ var vm = new Vue({
     preview: []
   },
   methods: {
-    select_categories: function(){
+    find_categories: function(){
       var posts = this.posts;
       var preview = this.preview;
 
