@@ -23,7 +23,7 @@ var vm = new Vue({
       {
         name: 'title4',
         url : '//www.example.org',
-        categories: ['html'],
+        categories: ['html','php'],
         display: true
       },
       {
@@ -53,7 +53,7 @@ var vm = new Vue({
       {
         name: 'title9',
         url : '//www.example.org',
-        categories: ['js'],
+        categories: ['js','css'],
         display: true
       },
       {
